@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MysqlapptocreateuserinthedatabaseApplication<mysqlapptocreateuserinthedatabase>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.firstpractice.mysqlapptocreateuserinthedatabase.MysqlapptocreateuserinthedatabaseApplication",
+            "projectName": "mysqlapptocreateuserinthedatabase",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
