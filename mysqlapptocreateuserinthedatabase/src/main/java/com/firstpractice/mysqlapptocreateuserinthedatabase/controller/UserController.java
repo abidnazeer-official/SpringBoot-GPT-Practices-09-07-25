@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.firstpractice.mysqlapptocreateuserinthedatabase.model.User;
 import com.firstpractice.mysqlapptocreateuserinthedatabase.repository.UserRepository;
-
 import java.util.List;
 
 @RestController

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice1Application",
+            "request": "launch",
+            "mainClass": "com.examplepractice1.practice1.Practice1Application",
+            "projectName": "practice1"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-MysqlapptocreateuserinthedatabaseApplication<mysqlapptocreateuserinthedatabase>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
