@@ -7,7 +7,7 @@ import com.firstpractice.mysqlapptocreateuserinthedatabase.repository.UserReposi
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/users/")
+@RequestMapping("/api/users")
 public class UserController {
 
     @Autowired
@@ -18,17 +18,17 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public User save(@RequestBody User user) {
         return userRepository.save(user);
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public User getUserById(@PathVariable Long id) {
         return userRepository.findById(id).orElse(null);
     }
 
-    @PutMapping("{id}")
+    @PutMapping("/update/{id}")
     public User updateUser(@PathVariable Long id, @RequestBody User updatedUser) {
         System.out.println("📥 Received: " + updatedUser.getName() + ", " + updatedUser.getEmail());
         return userRepository.findById(id).map(user -> {
@@ -38,7 +38,7 @@ public class UserController {
         }).orElse(null);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteUser(@PathVariable Long id) {
         userRepository.deleteById(id);
     }
