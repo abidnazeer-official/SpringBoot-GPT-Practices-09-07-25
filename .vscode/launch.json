@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demop2Application",
+            "request": "launch",
+            "mainClass": "com.examplep2.demop2.Demop2Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Practice2Application",
+            "request": "launch",
+            "mainClass": "com.examplepractice2.practice2.Practice2Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Practice1Application",
             "request": "launch",
             "mainClass": "com.examplepractice1.practice1.Practice1Application",

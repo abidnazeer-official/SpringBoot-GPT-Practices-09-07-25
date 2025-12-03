@@ -1,12 +1,13 @@
-package com.examplepractice1.practice1;
+package com.examplep2.demop2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Practice1Application {
+public class Demop2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Practice1Application.class, args);
+		SpringApplication.run(Demop2Application.class, args);
 	}
+
 }
