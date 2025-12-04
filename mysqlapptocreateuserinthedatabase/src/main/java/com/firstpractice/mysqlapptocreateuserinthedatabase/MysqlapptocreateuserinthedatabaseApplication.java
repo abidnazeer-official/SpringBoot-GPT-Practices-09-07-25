@@ -9,5 +9,4 @@ public class MysqlapptocreateuserinthedatabaseApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MysqlapptocreateuserinthedatabaseApplication.class, args);
 	}
-
 }
